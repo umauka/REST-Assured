@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ReqRes" parallel="tests" thread-count="25">
+    <parameter name="testReport" value="/ReqResServices.html" />
+    <parameter name="environment" value="staging" />
+    <parameter name="url" value="https://reqres.in" />
+
+    <test name="LoginUser" preserve-order="true">
+        <parameter name="url" value="https://reqres.in" />
+        <classes>
+            <class name="services.login" />
+        </classes>
+    </test>
+
+</suite>

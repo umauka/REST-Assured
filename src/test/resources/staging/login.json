@@ -1,0 +1,35 @@
+{
+  "url": "https://reqres.in",
+  "token": "QpwL5tke4Pnpja7X4",
+  "endpoint": "/api/login",
+
+  "Valid_Login": {
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+  },
+
+  "Invalid_Email": {
+    "email": "reqres@yopmail.com",
+    "password": "cityslicka"
+  },
+
+  "Invalid_Password": {
+    "email": "eve.holt@reqres.in",
+    "password": "password"
+  },
+
+  "Empty_Password": {
+    "email": "eve.holt@reqres.in",
+    "password": ""
+  },
+
+  "Empty_Email": {
+    "email": "",
+    "password": "cityslicka"
+  },
+
+  "Empty_Fields": {
+    "email": "",
+    "password": ""
+  }
+}
